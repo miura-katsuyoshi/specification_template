@@ -1,4 +1,10 @@
 # 仕様書テンプレート
+著者名 <doc.writer@asciidoctor.org>
+v1.0, 2014-01-01
+// ドキュメントの属性を下記のように定義します。
+:toc:
+:imagesdir: Images
+:homepage: http://asciidoctor.org
 
 == 概要
 
@@ -30,5 +36,15 @@
 == 機能詳細
 
 == タイミングチャート（任意）
+
+    {signal: [
+    {name: 'clk',			wave: 'PPPPPPPPPPPP|PPPPPP'},
+    {name: 'rst_n',		    wave: '0.1................'},
+    {name: 'signal_in',	    wave: '0...10.10.10|.10...'},  
+    {name: 'count',		    wave: '2....2..2..2|..2...', data: '0 DIVIDE DIVIDE-1 1 0'},
+    {name: 'signal_out',	wave: '0..............10..'}
+    ]}
+
+image::timing_chart_example.svg[]
 
 == ユースケース
